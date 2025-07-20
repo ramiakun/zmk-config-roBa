@@ -84,6 +84,7 @@
             // 追加: スクロールのタップ時間を設定 (20ms)
 
             tap-ms = <20>;
+         };
 
 
         encoder_vol_up_down: behavior_sensor_rotate_volume {
