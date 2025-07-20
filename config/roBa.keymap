@@ -3,7 +3,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINING_DEFAULT_SCRL_VAL 100
+// #includeのあとのあたりにスクロール量変更の定義を追記
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 &mt {
     flavor = "balanced";
@@ -76,13 +77,14 @@
             tapping-term-ms = <200>;
         };
 
-        scroll_up_down: behavior_mouse_wheel_up_down {
+        
+        encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
+            // スクロール方向を逆にしたい場合は <&msc SCRL_DOWN> と <&msc SCRL_UP> を入れ替えてください
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
             tap-ms = <20>;
-            label = "mouse_scroll";
         };
     };
 
@@ -97,7 +99,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &mt EQUAL MINUS  &lt 4 BACKSPACE                             &kp CAPS
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
