@@ -103,7 +103,7 @@
     };
 
     right_encoder: encoder_right {
-        status = "enabled";
+        status = "okay";
     };
 
     sensors: sensors {
