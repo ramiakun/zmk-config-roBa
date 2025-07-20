@@ -93,7 +93,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp Y            &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS        &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp C_MUTE                         &kp MINUS        &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp LANGUAGE_1                     &kp LANGUAGE_2   &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 INT_HENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &mt EQUAL MINUS  &lt 4 BACKSPACE                             &kp CAPS
             >;
@@ -109,7 +109,7 @@
 &kp LCTRL        &kp MINUS    &kp EQUAL             &trans        &trans                 &trans      &trans   &trans                                                   &kp RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&encoder_vol_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NUM {
@@ -120,7 +120,7 @@
 &kp LCTRL                   &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                                                                          &kp PIPE
             >;
 
-            sensor-bindings = <&encoder_vol_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         ARROW {
