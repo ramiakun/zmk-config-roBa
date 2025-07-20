@@ -140,7 +140,7 @@
 &kp LCTRL  &trans        &trans        &trans        &trans  &trans      &trans  &trans                                      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp LC(C_AC_SCROLL_UP) LC(C_AC_SCROLL_DOWN)>;
         };
 
         SCROLL {
