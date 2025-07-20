@@ -125,7 +125,7 @@
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &mkp LCLK                         &kp MINUS        &kp N7        &kp N8        &kp N9        &kp PLUS
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END    &trans      &trans     &kp SLASH        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans     &trans      &kp COMMA  &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &mkp LCLK  &trans      &kp COMMA  &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &kp LCTRL       &trans                  &trans          &trans                   &trans     &trans      &kp RCTRL  &kp RIGHT_SHIFT                                            &kp PERIOD
             >;
 
