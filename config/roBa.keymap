@@ -85,15 +85,6 @@
 
             tap-ms = <20>;
         };
-
-        encoder_vol_up_down: behavior_sensor_rotate_volume {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_VOL_UP_DOWN";
-            #sensor-binding-cells = <0>;
-            bindings = <&amp VOL_DOWN>, <&amp VOL_UP>;
-
-            tap-ms = <20>;
-        };
     };
 
     keymap {
