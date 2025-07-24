@@ -96,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R  &kp T                                                           &kp Y            &kp U  &lt 6 I    &kp O    &kp P
-&mt TAB A         &kp S         &kp D         &kp F  &kp G        &kp C_MUTE                         &mo 6           &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &kp LANGUAGE_1                     &kp LANGUAGE_2  &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &to 5  &lt 1 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &lt 4 MINUS     &lt 3 BACKSPACE                             &kp CAPS
+&kp Q             &kp W         &kp E         &kp R   &kp T                                                           &kp Y            &kp U  &lt 6 I    &kp O    &kp P
+&mt TAB A         &kp S         &kp D         &kp F   &kp G        &kp C_MUTE                         &mo 6           &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V   &kp B        &kp LANGUAGE_1                     &kp LANGUAGE_2  &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &tog 5  &lt 1 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &lt 4 MINUS     &lt 3 BACKSPACE                             &kp CAPS
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -152,7 +152,7 @@
 &kp Q             &kp L         &kp E         &mt PERIOD COMMA  &mt SEMICOLON SQT                                                 &kp F            &kp R  &kp W  &kp Y  &kp P
 &mt TAB A         &kp I         &kp U         &kp O             &mkp LCLK                   &kp C_MUTE            &mo 6           &kp K            &kp T  &kp N  &kp S  &kp H
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &mt NON_US_BACKSLASH SLASH  &kp LANGUAGE_1        &kp LANGUAGE_2  &kp G            &kp D  &kp M  &kp J  &kp B
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &to 0             &lt 1 SPACE                 &lt 2 INT_HENKAN      &lt 4 MINUS     &lt 3 BACKSPACE                       &trans
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &tog 0            &lt 1 SPACE                 &lt 2 INT_HENKAN      &lt 4 MINUS     &lt 3 BACKSPACE                       &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
