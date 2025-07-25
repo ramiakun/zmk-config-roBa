@@ -16,7 +16,6 @@
     //トラックボールを使用すると勝手にレイヤー切り換わるをコメントアウト
     //automouse-layer = <4>;
     //scroll-layers = <5>;
-
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -97,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R   &kp T                                                           &kp Y            &kp U  &lt 6 I    &kp O    &kp P
-&mt TAB A         &kp S         &kp D         &kp F   &kp G        &kp C_MUTE                         &mo 6           &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V   &kp B        &kp LANGUAGE_1                     &kp LANGUAGE_2  &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &tog 5  &lt 1 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &lt 4 MINUS     &lt 3 BACKSPACE                             &kp CAPS
+&kp Q             &kp W         &kp E         &kp R  &kp T                                                    &kp Y            &kp U  &lt 6 I    &kp O    &kp P
+&mt TAB A         &kp S         &kp D         &kp F  &kp G        &kp C_MUTE                  &mo 6           &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B        &kp LANGUAGE_1              &kp LANGUAGE_2  &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 3  &lt 1 SPACE  &lt_to_layer_0 2 EQUAL      &lt 4 MINUS     &lt 3 BACKSPACE                             &kp CAPS
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
