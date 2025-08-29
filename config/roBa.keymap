@@ -98,10 +98,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                                &kp Y             &kp U  &lt 6 I    &kp O    &mt RIGHT_SHIFT P
-&mt TAB A         &kp S         &kp D         &kp F        &kp G             &kp C_MUTE          &to 6          &kp H             &kp J  &kp K      &kp L    &mt SEMICOLON SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B             &kp LANGUAGE_1      &kp RA(ENTER)  &kp N             &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 EQUAL  &lt 1 LANGUAGE_1  &lt 2 SPACE         &lt 4 MINUS    &lt 3 LANGUAGE_2                             &kp CAPS
+&kp Q             &kp W         &kp E         &kp R        &kp T                                                &kp Y            &kp U  &lt 6 I    &kp O    &mt RIGHT_SHIFT P
+&mt TAB A         &kp S         &kp D         &kp F        &kp G        &kp C_MUTE            &mo 6             &kp H            &kp J  &kp K      &kp L    &mt SEMICOLON SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp LANGUAGE_1        &kp RA(ENTER)     &kp N            &kp M  &kp COMMA  &kp DOT  &mt NON_US_BACKSLASH SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 MINUS  &lt 1 SPACE  &lt 2 LANGUAGE_1      &lt 4 LANGUAGE_2  &lt 3 BACKSPACE                             &kp CAPS
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -162,10 +162,10 @@
 
         scroll {
             bindings = <
-&kp Q             &kp L         &kp E         &mt PERIOD COMMA  &kp DOUBLE_QUOTES                                               &kp F             &kp R  &kp W  &kp Y  &kp P
-&mt TAB A         &kp I         &kp U         &kp O             &mt SEMICOLON SINGLE_QUOTE  &kp C_MUTE          &to 0           &kp K             &kp T  &kp N  &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &mt NON_US_BACKSLASH SLASH  &kp LANGUAGE_1      &kp LANGUAGE_2  &kp G             &kp D  &kp M  &kp J  &kp B
-&kp C_AL_TIPS     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 EQUAL       &lt 1 LANGUAGE_1            &lt 2 SPACE         &lt 4 MINUS     &lt 3 LANGUAGE_2                       &kp CAPS
+&kp Q             &kp L         &kp E         &mt PERIOD COMMA  &kp DOUBLE_QUOTES                                                   &kp F            &kp R  &kp W  &kp Y  &kp P
+&mt TAB A         &kp I         &kp U         &kp O             &mt SEMICOLON SINGLE_QUOTE  &kp C_MUTE            &to 0             &kp K            &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &mt NON_US_BACKSLASH SLASH  &kp LANGUAGE_1        &kp LANGUAGE_2    &kp G            &kp D  &kp M  &kp J  &kp B
+&kp C_AL_TIPS     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 MINUS       &lt 1 SPACE                 &lt 2 LANGUAGE_2      &lt 4 LANGUAGE_2  &lt 3 BACKSPACE                       &kp CAPS
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
