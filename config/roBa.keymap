@@ -14,19 +14,23 @@
 
 &trackball {
     //トラックボールを使用すると勝手にレイヤー切り換わるをコメントアウト
+
     NUM-layer = <2>;
+
     //scroll-layers = <5>;
-     arrows {
-         layers = <3>;
-         bindings =
-             <&kp RIGHT_ARROW>,
-             <&kp LEFT_ARROW>,
-             <&kp UP_ARROW>,
-             <&kp DOWN_ARROW>;
-         tick = <10>;
-         wait-ms = <5>;
-         tap-ms = <5>;
-     };
+
+    arrows {
+        layers = <3>;
+        bindings =
+            <&kp RIGHT_ARROW>,
+            <&kp LEFT_ARROW>,
+            <&kp UP_ARROW>,
+            <&kp DOWN_ARROW>;
+
+        tick = <10>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+    };
 };
 
 / {
@@ -165,7 +169,7 @@
 &kp Q             &kp L         &kp E         &mt PERIOD COMMA  &kp DOUBLE_QUOTES                                                   &kp F            &kp R  &kp W  &kp Y  &kp P
 &mt TAB A         &kp I         &kp U         &kp O             &mt SEMICOLON SINGLE_QUOTE  &kp C_MUTE            &to 0             &kp K            &kp T  &kp N  &kp S  &kp H
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &mt NON_US_BACKSLASH SLASH  &kp LANGUAGE_1        &kp LANGUAGE_2    &kp G            &kp D  &kp M  &kp J  &kp B
-&kp C_AL_TIPS     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 MINUS       &lt 1 SPACE                 &lt 2 LANGUAGE_2      &lt 4 LANGUAGE_2  &lt 3 BACKSPACE                       &kp CAPS
+&kp C_AL_TIPS     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 MINUS       &lt 1 SPACE                 &lt 2 LANGUAGE_1      &lt 4 LANGUAGE_2  &lt 3 BACKSPACE                       &kp CAPS
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
