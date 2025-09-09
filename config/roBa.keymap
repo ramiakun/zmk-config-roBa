@@ -15,7 +15,7 @@
 &trackball {
     //トラックボールを使用すると勝手にレイヤー切り換わるをコメントアウト
 
-    NUM-layer = <2>;
+    //NUM-layer = <2>;
 
     //scroll-layers = <5>;
 
