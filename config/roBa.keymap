@@ -104,7 +104,7 @@
 
             //レイヤー0のスクロール割り当て
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
