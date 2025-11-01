@@ -109,10 +109,10 @@
 
         FUNCTION {
             bindings = <
-&trans          &kp LC(LS(TAB))   &kp UP_ARROW  &kp LC(TAB)        &trans                             &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans            &trans
-&kp TAB         &kp LEFT          &kp DOWN      &kp RIGHT          &trans     &kp K_MUTE      &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans            &kp SEMICOLON
-&kp LEFT_SHIFT  &kp LG(LS(LEFT))  &trans        &kp LS(LG(RIGHT))  &mkp LCLK  &trans          &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &kp NON_US_BACKSLASH
-&kp LCTRL       &trans            &trans        &trans             &trans     &trans          &trans  &trans                                                                        &trans
+&kp LS(LC(TAB))  &kp LC(TAB)       &kp UP_ARROW  &mkp LCLK          &kp LEFT_BRACKET                              &kp RIGHT_BRACKET      &trans         &trans            &trans  &trans
+&kp TAB          &kp LEFT          &kp DOWN      &kp RIGHT          &kp LEFT_PARENTHESIS  &kp K_MUTE      &trans  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans
+&kp LEFT_SHIFT   &kp LG(LS(LEFT))  &mkp MB3      &kp LS(LG(RIGHT))  &kp LEFT_BRACE        &trans          &trans  &kp RIGHT_BRACE        &trans         &trans            &trans  &trans
+&kp LCTRL        &trans            &trans        &trans             &trans                &trans          &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
